@@ -1,0 +1,8 @@
+{
+  "name": "insulin-calculator-client",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/insulin-calculator-client/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
