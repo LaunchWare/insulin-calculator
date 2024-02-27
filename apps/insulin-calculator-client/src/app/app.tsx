@@ -1,12 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="insulin-calculator-client" />
+      <h1 className="text-4xl bg-red-900">Hi from Insulin Calculator</h1>
     </div>
   );
 }
