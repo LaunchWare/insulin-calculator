@@ -1,0 +1,19 @@
+.form {
+  @apply container mx-auto max-w-xl my-8;
+}
+
+.form__title {
+  @apply text-4xl;
+}
+
+.form__label {
+  @apply form-control w-full max-w-xs;
+}
+
+.form__label-container {
+  @apply label;
+}
+
+.form__input {
+  @apply input input-bordered w-full max-w-xs;
+}
