@@ -2,17 +2,7 @@ import { FormProvider, useForm } from "react-hook-form"
 import "./css/form.css"
 import { ControlledFormInput } from "../forms/ControlledFormInput"
 import { zodResolver } from "@hookform/resolvers/zod"
-import * as z from "zod"
-
-const calculationPayload = z.object({
-  targetA1C: z.coerce.number().positive(),
-  correctionFactor: z.coerce.number().positive(),
-  carbohydrateFactor: z.coerce.number().positive(),
-  a1cReading: z.coerce.number().positive(),
-  carbohydrates: z.coerce.number().positive(),
-})
-
-type CalculationPayload = z.infer<typeof calculationPayload>
+import { CalculationPayload, calculationPayload } from "./models/CalculationPayload"
 
 export const InsulinCalculator = () => {
   const hookFormPayload = useForm<CalculationPayload>({

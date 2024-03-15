@@ -4,6 +4,8 @@
 
 - Insulin Calculation
   - `Insulin = (Carbohydrates / Carbohydrate Factor) + (Blood Sugar - Target Blood Sugar) / Correction Factor`
+  - truncate to 1 decimal place
+  - add correction dosage and carbohydrate dosage together, round to nearest 0.5
 
 - We need to create a form for all of the inputs
   - Target A1C
