@@ -17,3 +17,11 @@
 .form__input {
   @apply input input-bordered w-full max-w-xs;
 }
+
+.form__submit-button {
+  @apply btn btn-primary;
+}
+
+.form__error-message {
+  @apply text-error;
+}
