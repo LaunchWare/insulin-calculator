@@ -1,10 +1,11 @@
 import { CalculationPayload } from "./CalculationPayload";
+import { CalculationResult } from "./CalculationResult";
 
 const roundToNearestTenth = (value: number) => {
   return Math.floor(value * 10) / 10
 }
 
-export const calculateInsulin = (payload: CalculationPayload) => {
+export const calculateInsulin = (payload: CalculationPayload): CalculationResult => {
   const {
     targetA1C,
     correctionFactor,

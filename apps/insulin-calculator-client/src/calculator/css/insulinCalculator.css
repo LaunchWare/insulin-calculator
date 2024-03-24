@@ -1,0 +1,3 @@
+.insulin-calculator__container {
+  @apply container mx-auto w-96 max-w-xl;
+}

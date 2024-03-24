@@ -1,5 +1,5 @@
 .form {
-  @apply container mx-auto max-w-xl my-8;
+  @apply my-8;
 }
 
 .form__title {
